@@ -32,7 +32,7 @@ int main() {
     }
 
     fin >> f; // Citim numarul de stari finale si starile finale ale automatului
-    for (int i = 0; i < f; ++i) {
+    for (int i = 0; i < f; i++) {
         int x;
         fin >> x;
         F[i]=x; // Adaugam starea in vectorul cu stari finale
